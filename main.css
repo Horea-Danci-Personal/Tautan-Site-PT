@@ -194,7 +194,7 @@ form input, form textarea{
     font-size: 20px;
 }
 form button{
-    padding: 25px;
+    padding: 21px;
     background-color: rgba(128, 128, 128, 0.206);
     color: white;
     font-size: 22px;
@@ -205,3 +205,5 @@ form button{
     border-radius: 5px;
     align-self: center;
 }
+
+
