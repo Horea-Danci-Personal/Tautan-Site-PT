@@ -213,7 +213,7 @@ form button{
 @media only screen and (width<400px) {
     body{
         background-size:cover ;
-        height: 100%;
+        height: 5100px;
     }
     .header{
         padding-left: 30px;
