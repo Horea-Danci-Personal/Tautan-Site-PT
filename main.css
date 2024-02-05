@@ -262,7 +262,7 @@ form button{
         font-size: 40px;
         display: flex;
         flex-direction: column;
-      left: 0px;
+      left: 0%;
       padding-bottom: 30px;
       text-align: center;
         
@@ -277,7 +277,7 @@ form button{
         align-items: center;
         scale: 0.5;
         top: -250px;
-        left: -100px;
+        left: -25%;
     }
     .poza-adi{
         top: 100px !important;
@@ -291,7 +291,7 @@ form button{
         color: white;
         font-family:myFont3;
         font-size: 40px;
-        left: 70px;
+        left: 20%;
         top:-380px;
         text-align: center;
     
@@ -304,8 +304,8 @@ form button{
         color: white;
         font-family:'Montserrat', sans-serif;
         font-size: 20px;
-        left: 10px;
-        top:-250px;
+        left: 2%;
+        top:-290px;
      
     }
     .oferta-fizic{
@@ -355,7 +355,7 @@ form button{
         font-family:myFont3;
         font-size: 40px;
         top: 20px;
-        left: 10px;
+        left: 3%;
         
     }
     .rezultate{
@@ -420,7 +420,7 @@ form button{
         padding-left: 15px;
         padding-right: 15px;
         width: 90%;
-        left: 0;
+        left: 0%;
     }
     form input, form textarea{
         border: 0;
