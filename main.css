@@ -10,7 +10,7 @@
     font-family: myFont3;
     src: url(lemon_milk/LEMONMILK-Regular.otf);
 }
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 400px) {
 .header{
     padding-left: 50px;
     padding-right: 50px;
@@ -210,7 +210,7 @@ form button{
 }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (width<400px) {
     .header{
         padding-left: 30px;
         padding-right: 30px;
@@ -241,7 +241,8 @@ form button{
     }
     .logo-insta{
         position: relative;
-        height: auto; 
+        height: auto;
+        margin-right: 20px; 
            
     }
     .logo-wapp{
@@ -285,7 +286,7 @@ form button{
         color: white;
         font-family:myFont3;
         font-size: 40px;
-        left: 130px;
+        left: 100px;
         top:-380px;
         text-align: center;
     
@@ -294,11 +295,11 @@ form button{
         display: flex;
         flex-direction: column;
         position: relative;
-        width: 400px;
+        width: 350px;
         color: white;
         font-family:'Montserrat', sans-serif;
         font-size: 20px;
-        left: 50px;
+        left: 10px;
         top:-250px;
      
     }
@@ -342,12 +343,12 @@ form button{
         flex-direction: column;
         text-align: center;
         position: relative;
-        width: fit-content;
+        width: 380px;
         color: white;
         font-family:myFont3;
         font-size: 40px;
         top: 20px;
-        left: 20px;
+        left: 10px;
         
     }
     .rezultate{
@@ -366,7 +367,7 @@ form button{
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 350px;
         color: white;
         font-family: myFont3;
         font-size: 24px;
@@ -389,7 +390,7 @@ form button{
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 350px;
         height: fit-content;
         color: white;
         font-family: myFont3;
