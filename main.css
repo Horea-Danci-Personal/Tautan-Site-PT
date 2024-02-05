@@ -211,6 +211,10 @@ form button{
 }
 
 @media only screen and (width<400px) {
+    body{
+        background-size:cover ;
+        height: 5200px;
+    }
     .header{
         padding-left: 30px;
         padding-right: 30px;
@@ -226,7 +230,7 @@ form button{
     
     }
     .header-text{
-        font-size: 15px;
+        font-size: 18px;
         color: white;
         display: flex;
     }
@@ -257,7 +261,7 @@ form button{
         font-size: 40px;
         display: flex;
         flex-direction: column;
-      left: 50px;
+      left: 0px;
       padding-bottom: 30px;
       text-align: center;
         
@@ -272,7 +276,7 @@ form button{
         align-items: center;
         scale: 0.5;
         top: -250px;
-        left: -150px;
+        left: -100px;
     }
     .poza-adi{
         top: 100px !important;
@@ -286,7 +290,7 @@ form button{
         color: white;
         font-family:myFont3;
         font-size: 40px;
-        left: 100px;
+        left: 70px;
         top:-380px;
         text-align: center;
     
@@ -306,21 +310,23 @@ form button{
     .oferta-fizic{
         
         position: relative;
-        width: 300px;
+        width: 80%;
         background-color: rgba(128, 128, 128, 0.206);
         padding: 35px;
         box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.206);
         margin-bottom: 50px;
         border:none;
         margin-right: none;
+        left: 3%;
 
     }
     .oferta-online{
         position: relative;
-        width: 300px;
+        width: 80%;
         background-color: rgba(128, 128, 128, 0.206);
         padding: 35px;
         box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.206);
+        left: 3%;
         
     
     }
@@ -328,13 +334,13 @@ form button{
         position: relative;
         font-size: 35px;
         padding-bottom: 30px;
-        left: 15px;
+        left: 5%;
     }
     .titlu-online{
         position: relative;
-        font-size: 40px;
+        font-size: 35px;
         padding-bottom: 30px;
-        left: 5px;
+        left: 5%;
         
         
     }
@@ -360,6 +366,7 @@ form button{
         padding-bottom: 100px;
         gap: 20px;
         scale: 0.6;
+        left: 5%;
     
         
     }
@@ -370,8 +377,8 @@ form button{
         width: 350px;
         color: white;
         font-family: myFont3;
-        font-size: 24px;
-        top: 1050px;
+        font-size: 20px;
+        top: -750px;
         left: 6%;
         padding-bottom: 200px;
         text-align: center;
@@ -390,17 +397,18 @@ form button{
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 90%;
         height: fit-content;
         color: white;
         font-family: myFont3;
         font-size: 20px;
-        top:1000px;
+        top:-900px;
         left:6%;
         padding-bottom: 100px;
         text-align: center;
     }
     form{
+        position: relative;
         background-color: rgba(128, 128, 128, 0.206);
         box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.206);
         color: white;
@@ -410,6 +418,8 @@ form button{
         padding-bottom: 40px;
         padding-left: 15px;
         padding-right: 15px;
+        width: 90%;
+        left: 0;
     }
     form input, form textarea{
         border: 0;
