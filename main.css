@@ -10,7 +10,7 @@
     font-family: myFont3;
     src: url(lemon_milk/LEMONMILK-Regular.otf);
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 431px) {
 .header{
     padding-left: 50px;
     padding-right: 50px;
@@ -18,7 +18,7 @@
     padding-bottom: 20px;
     background-color: rgba(128, 128, 128, 0.305);
     width: auto;
-    height:70px;
+    height:50%;
     font-family:myFont;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
 
 }
 .header-text{
-    font-size: 40px;
+    font-size: 3em;
     color: white;
     display: flex;
 }
@@ -65,7 +65,6 @@
     height: fit-content;
     top: 150px;
     align-items: center;
-    left: 15%;
 }
 .poza-adi{
     position: relative;
@@ -124,9 +123,9 @@
 }
 .titlu-rezultate{
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
     position: relative;
-    width: fit-content;
+    width:fit-content;
     color: white;
     font-family:myFont3;
     font-size: 45px;
@@ -210,11 +209,10 @@ form button{
 }
 }
 
-@media only screen and (width<400px) {
+@media only screen and (width<430px) {
     body{
         background-size:cover ;
-        height: fit-content !important;
-
+        width: auto;
     }
     .header{
         padding-left: 30px;
@@ -262,7 +260,6 @@ form button{
         font-size: 40px;
         display: flex;
         flex-direction: column;
-      left: 0%;
       padding-bottom: 30px;
       text-align: center;
         
@@ -273,15 +270,15 @@ form button{
         display: flex;
         flex-direction: column;
         position: relative;
-        width: fit-content;
+        width: 100%;
         align-items: center;
         scale: 0.5;
         top: -250px;
-        left: -25%;
     }
     .poza-adi{
         top: 100px !important;
         position: relative !important;
+    
     }
     .oferte-header{
         display: flex;
@@ -375,7 +372,7 @@ form button{
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 80%;
         color: white;
         font-family: myFont3;
         font-size: 20px;
@@ -405,6 +402,242 @@ form button{
         font-size: 20px;
         top:-900px;
         left:6%;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    form{
+        position: relative;
+        background-color: rgba(128, 128, 128, 0.206);
+        box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.206);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 90%;
+        left: 0%;
+    }
+    form input, form textarea{
+        border: 0;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        background-color: rgba(128, 128, 128, 0.064);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+    }
+    form button{
+        padding: 18px;
+        background-color: rgba(128, 128, 128, 0.206);
+        color: white;
+        font-size: 20px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: fit-content;
+        border-radius: 5px;
+        align-self: center;
+    }
+    
+    
+  }
+
+  @media only screen and (width>=430px) {
+    body{
+        background-size:cover ;
+    }
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgba(128, 128, 128, 0.305);
+        width: 100%;
+        height:70px;
+        font-family:myFont;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .header-text{
+        font-size: 18px;
+        color: white;
+        display: flex;
+    }
+    .logo-uri{
+        position: relative;
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        scale: 0.6;
+      
+        
+    }
+    .logo-insta{
+        position: relative;
+        height: auto;
+        right:20px ;
+    
+           
+    }
+    .logo-wapp{
+       position:relative;
+    }
+    
+    .text-int{
+        position: relative;
+        color: white;
+        font-family:'Montserrat', sans-serif;
+        width: 600px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+      padding-bottom: 30px;
+      text-align: center;
+        
+        
+        
+    }
+    .introducere{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        align-items: center;
+        scale: 0.5;
+        top: -250px;
+        left: 5%;
+    }
+    .poza-adi{
+        top: 100px !important;
+        position: relative !important;
+    
+    }
+    .oferte-header{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 250px;
+        color: white;
+        font-family:myFont3;
+        font-size: 40px;
+        left: 25%;
+        top:-380px;
+        text-align: center;
+    
+    }
+    .oferte{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 350px;
+        color: white;
+        font-family:'Montserrat', sans-serif;
+        font-size: 20px;
+        left: 13%;
+        top:-290px;
+     
+    }
+    .oferta-fizic{
+        
+        position: relative;
+        width: 80%;
+        background-color: rgba(128, 128, 128, 0.206);
+        padding: 35px;
+        box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.206);
+        margin-bottom: 50px;
+        border:none;
+        margin-right: none;
+        left: 3%;
+
+    }
+    .oferta-online{
+        position: relative;
+        width: 80%;
+        background-color: rgba(128, 128, 128, 0.206);
+        padding: 35px;
+        box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.206);
+        left: 3%;
+        
+    
+    }
+    .titlu-fizic{
+        position: relative;
+        font-size: 35px;
+        padding-bottom: 30px;
+        left: 5%;
+    }
+    .titlu-online{
+        position: relative;
+        font-size: 35px;
+        padding-bottom: 30px;
+        left: 5%;
+        
+        
+    }
+    .titlu-rezultate{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        color: white;
+        font-family:myFont3;
+        font-size: 40px;
+        top: -80px;
+        left: 15%;
+        
+    }
+    .rezultate{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        position: relative;
+        top: -490px;
+        padding-bottom: 100px;
+        gap: 20px;
+        scale: 0.6;
+        left: 12%;
+    
+        
+    }
+    .closing{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        color: white;
+        font-family: myFont3;
+        font-size: 20px;
+        top: -950px;
+        left: 16%;
+        padding-bottom: 200px;
+        text-align: center;
+    }
+    .closing-title{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        justify-content: center;
+        padding-bottom: 50px;
+        font-family: myFont3;
+    }
+    
+    .contact-form{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: fit-content;
+        color: white;
+        font-family: myFont3;
+        font-size: 20px;
+        top:-1100px;
+        left:16%;
         padding-bottom: 100px;
         text-align: center;
     }
