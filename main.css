@@ -213,7 +213,8 @@ form button{
 @media only screen and (width<400px) {
     body{
         background-size:cover ;
-        height: 5100px;
+        height: fit-content !important;
+
     }
     .header{
         padding-left: 30px;
@@ -366,7 +367,7 @@ form button{
         padding-bottom: 100px;
         gap: 20px;
         scale: 0.6;
-        left: 5%;
+        left: 4%;
     
         
     }
